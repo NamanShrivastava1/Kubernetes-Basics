@@ -7,6 +7,6 @@ spec:
     app:  express
   type:  ClusterIP
   ports:
-  - name:  name-of-the-port
+  - name:  http
     port:  80
-    targetPort:  8080
+    targetPort:  3000
